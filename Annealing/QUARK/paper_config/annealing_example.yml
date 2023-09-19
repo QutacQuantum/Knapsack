@@ -1,0 +1,16 @@
+application:
+  config:
+    problem_type:
+    - Scenario_1
+  name: Knapsack
+mapping:
+  MultiKSQUBO:
+    config: {}
+    solver:
+    - config:
+        number_of_reads:
+        - 100
+      device:
+      - SimulatedAnnealer
+      name: Annealer
+repetitions: 5

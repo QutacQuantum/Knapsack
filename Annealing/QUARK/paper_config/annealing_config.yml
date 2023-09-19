@@ -1,0 +1,26 @@
+application:
+  config:
+    problem_type:
+    - Scenario_1
+    - Scenario_2
+    - Scenario_3
+    - Scenario_4
+    - Scenario_5
+    - Scenario_6
+    - Scenario_7
+    - Scenario_8
+    - Scenario_9
+  name: Knapsack
+mapping:
+  MultiKSQUBO:
+    config: {}
+    solver:
+    - config:
+        number_of_reads:
+        - 1000
+      device:
+      - SimulatedAnnealer
+      - arn:aws:braket:::device/qpu/d-wave/DW_2000Q_6
+      - arn:aws:braket:us-west-2::device/qpu/d-wave/Advantage_system6
+      name: Annealer
+repetitions: 10

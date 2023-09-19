@@ -1,0 +1,71 @@
+{
+  "Scenario_1": {
+    "article_reward":
+      [[16,13,11,9,7,4,3,2]],
+    "article_weight": [8,6,6,4,4,4,4,2],
+    "knapsack_capacity": [
+      11
+    ],
+    "optimal_solution": "NA"
+  },
+  "Scenario_2": {
+    "article_reward": [[3,3,2,2],[2,2,5,3]],
+    "article_weight": [3,3,2,2],
+    "knapsack_capacity": [
+      5,5
+    ],
+    "optimal_solution": "NA"
+  },
+  "Scenario_3": {
+    "article_reward": [[3,4,1,2,1],[2,3,1,3,3]],
+    "article_weight": [3,3,2,2,1],
+    "knapsack_capacity": [
+      7,4
+    ],
+    "optimal_solution": "na"
+  },
+  "Scenario_4": {
+    "article_reward": [[4,4,3,4,1,4], [2,2,3,4,2,1]],
+    "article_weight": [5,6,4,2,2,5],
+    "knapsack_capacity": [
+      6, 8
+    ],
+    "optimal_solution": "na"
+  },
+  "Scenario_5": {
+    "article_reward": [[2,5,4,2], [3,4,5,5], [1, 3, 4, 2]],
+    "article_weight": [3,4,5,4],
+    "knapsack_capacity": [11, 6, 9],
+    "optimal_solution": "na"
+  },
+  "Scenario_6": {
+    "article_reward": [[1,3,1,1,3], [2,3,3,2,3], [3,2,1,3,5]],
+    "article_weight": [1,3,6,3,3],
+    "knapsack_capacity": [11, 8, 11],
+    "optimal_solution": "na"
+  },
+  "Scenario_7": {
+    "article_reward":[[1,3,1,1,3,2,4], [2,3,3,2,3,1,5], [3,2,1,3,5,2,2]],
+    "article_weight": [1,3,6,3,3,2,4],
+    "knapsack_capacity": [11, 8, 3],
+    "optimal_solution": "na"
+  },
+  "Scenario_8": {
+    "article_reward": [[2,4,4,4,2], [2,2,2,2,2], [2,4,2,5,3], [4,5,5,4,5]],
+    "article_weight": [5,2,2,5,5],
+    "knapsack_capacity": [12,10,8,11],
+    "optimal_solution": "na"
+  },
+  "Scenario_9": {
+    "article_reward": [[10,9,8,7,6,5,4,3,3,2],[9,8,7,7,6,6,5,4,2,2],[10,8,7,6,6,5,5,4,3,1]],
+    "article_weight": [7,6,6,5,5,4,3,2,2,2],
+    "knapsack_capacity": [11, 12, 13],
+    "optimal_solution": "na"
+  },
+  "Scenario_10": {
+    "article_reward": [[100,95,81,77,76,75,70,63,63,62,63,59,58,50,46,45,44,39,32,26,25,19,18,17,16,15,14,13,13,12],[101,93,82,79,77,76,72,65,63,62,60,55,54,53,48,44,42,41,29,28,26,21,19,13,15,16,12,15,12,9],[105,92,85,79,72,76,702,67,60,64,63,56,57,54,49,45,42,40,34,22,26,20,19,16,18,12,12,14,14,11],[92,93,90,87,80,72,72,70,65,61,62,55,55,52,42,44,40,36,34,22,24,23,22,20,18,16,15,15,14,13]],
+    "article_weight": [87,82,76,75,72,69,64,58,52,48,42,41,40,36,32,32,31,29,26,25,24,22,19,17,16,14,13,12,12,9],
+    "knapsack_capacity": [120,125,130,135],
+    "optimal_solution": "na"
+  }
+}

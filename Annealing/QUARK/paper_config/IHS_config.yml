@@ -1,0 +1,28 @@
+application:
+  config:
+    problem_type:
+    - Scenario_1
+    - Scenario_2
+    - Scenario_3
+    - Scenario_4
+    - Scenario_5
+    - Scenario_6
+    - Scenario_7
+    - Scenario_8
+    - Scenario_9
+  name: Knapsack
+mapping:
+  MultiKSQUBO:
+    config: {}
+    solver:
+    - config:
+        iterations:
+        - 50
+        numOptVars:
+        - 12
+        number_of_reads:
+        - 1000
+      device:
+      - SimulatedAnnealer
+      name: IterativeHeuristic
+repetitions: 10
